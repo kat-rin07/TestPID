@@ -1,7 +1,11 @@
-class PID:
-    def __init__(self, Kp, Ki, Kd, output_limits = (None, None)):
-        self.Kp = Kp
-        self.Ki = Ki
-        self.Kd = Kd
-        self.setpoint = 0
+import matplotlib.pyplot as plt
 
+
+x = [1, 2, 3 ,4]
+y = [2, 4, 6, 8]
+
+plt.plot(x, y)
+plt.xlabel('x-axis')
+plt.ylabel('y-axis')
+plt.title('Basic Line Plot')
+plt.show()
